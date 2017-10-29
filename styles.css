@@ -7,6 +7,7 @@ body{
 #particles-js{
 	height: 100%;
 	/*background-color: black;*/
-	/*background-image: url(https://images.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg?h=350&auto=compress&cs=tinysrgb);*/
-	background-image: url(moon.jpeg);
+	/*background-color: firebrick;*/
+	background-image: url(earth.jpg);
+	/*background-image: url(moon.jpeg);*/
 }
