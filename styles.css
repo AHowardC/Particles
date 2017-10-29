@@ -1,13 +1,21 @@
 body{
+	background-image: url(earth.jpg);
 	margin: 0;
 	padding: 0;
 	height: 100vh;
+	color: #000;
+}
+#welcome{
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	left: 20%;
 }
 
 #particles-js{
 	height: 100%;
 	/*background-color: black;*/
 	/*background-color: firebrick;*/
-	background-image: url(earth.jpg);
+	/*background-image: url(earth.jpg);*/
 	/*background-image: url(moon.jpeg);*/
 }
