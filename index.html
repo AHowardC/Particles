@@ -5,19 +5,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script type="text/javascript" src="lib/typed.js"></script>
 </head>
 <body>
-	<div id="particles-js">
-		<div id="welcome"><h1>Welcome To My World.</h1>
+	<div id="typed-strings">
+		<h1>Hello, My name is Akil.</h1>
+	    <h1>Welcome To My World.</h1>
+		<p>I am a software engineer.</p>
+		<p>I enjoy writing software that helps improve the world.</p>
+		<p>I'm always looking for things to learn and figuring out what makes them tick.</p>
+		<p>Please follow me on Twitter, Github, and LinkedIn.</p>
+		<p>Thanks for visiting my website.</p>
 			<br>
-			<h3>Please enjoy yourself and explore.</h3>
-		</div>
+			<h3>Please explore and enjoy yourself.</h3>
+	</div>
+<span id="typed"></span>
+	
+	<div id="particles-js">
+		
+
+
+		<div id="welcome"></div>
 	</div>
 
 
 <!-- add typing -->
-
+	<script>var typed = new Typed('#typed', {
+		stringsElement: '#typed-strings',
+		typeSpeed: 80
+	});
+	</script>
 	<script type="text/javascript" src="JS/particles.js"></script>
 	<script type="text/javascript" src="JS/particles.min.js"></script>
 	<script type="text/javascript" src="JS/app.js"></script>
