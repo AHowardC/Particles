@@ -21,6 +21,103 @@ body{
 	top: 20%;
 	left: 20%;
 }
+
+.wrapper{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wrapper ul{
+	list-style: none;
+}
+
+.wrapper ul li{
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	margin: 0 10px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	float: left;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li .fa{
+	color: #fff;
+	margin-top: 20px;
+	transition: all 0.5s ease;
+}
+/************facebook***************/
+.wrapper ul li:hover:nth-child(1){
+	border: 5px solid #3b5998;
+	box-shadow: 0 0 15px #3b5998;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook{
+	color: #3b5998;
+	text-shadow: 0 0 15px #3b5998;
+	transition: all 0.5s ease;
+}
+
+/************twitter***************/
+.wrapper ul li:hover:nth-child(2){
+	border: 5px solid #00A9E5;
+	box-shadow: 0 0 15px #00A9E5;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter{
+	color: #00A9E5;
+	text-shadow: 0 0 15px #00A9E5;
+	transition: all 0.5s ease;
+}
+
+/************LinkedIn***************/
+.wrapper ul li:hover:nth-child(3){
+	border: 5px solid #002E68;
+	box-shadow: 0 0 15px #002E68;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-linkedin{
+	color: #002E68;
+	text-shadow: 0 0 15px #002E68;
+	transition: all 0.5s ease;
+}
+
+/************GitHub***************/
+.wrapper ul li:hover:nth-child(4){
+	border: 5px solid #59267c;
+	box-shadow: 0 0 15px #59267c;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-github{
+	color: #59267c;
+	text-shadow: 0 0 15px #59267c;
+	transition: all 0.5s ease;
+}
+
+/************Slack***************/
+.wrapper ul li:hover:nth-child(5){
+	border: 5px solid #E60053;
+	box-shadow: 0 0 15px #E60053;
+	transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-slack{
+	color: #E60053;
+	text-shadow: 0 0 15px #E60053;
+	transition: all 0.5s ease;
+}
+
+
+/*************Earth background Video***************/
 video { 
     position: fixed;
     top: 50%;
