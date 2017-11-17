@@ -15,6 +15,7 @@ body{
 	/*make a h&h logpd chatap with first last em*/
 }
 
+
 #typed{
 	color: #fff;
 	position: absolute;
@@ -64,6 +65,7 @@ body{
 	transition: all 0.5s ease;
 }
 
+
 /************twitter***************/
 .wrapper ul li:hover:nth-child(2){
 	border: 5px solid #00A9E5;
@@ -76,6 +78,7 @@ body{
 	text-shadow: 0 0 15px #00A9E5;
 	transition: all 0.5s ease;
 }
+
 
 /************LinkedIn***************/
 .wrapper ul li:hover:nth-child(3){
@@ -115,10 +118,15 @@ body{
 	text-shadow: 0 0 15px #E60053;
 	transition: all 0.5s ease;
 }
+a.fa-slack:hover{
+	color: inherit;
+}
 
+/***********links************/
+/*unvisited link*/
 
 /*************Earth background Video***************/
-video { 
+video {
     position: fixed;
     top: 50%;
     left: 50%;
