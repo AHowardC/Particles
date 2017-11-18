@@ -54,7 +54,7 @@ body{
 }
 /************facebook***************/
 .wrapper ul li:hover:nth-child(1){
-	border: 5px solid #3b5998;
+	border: 5px solid #0f0;
 	box-shadow: 0 0 15px #3b5998;
 	transition: all 0.5s ease;
 }
@@ -118,12 +118,27 @@ body{
 	text-shadow: 0 0 15px #E60053;
 	transition: all 0.5s ease;
 }
-a.fa-slack:hover{
-	color: inherit;
-}
 
 /***********links************/
-/*unvisited link*/
+/* unvisited link */
+#a5 a:link {
+    color: none;
+}
+
+/* visited link */
+#a5 a:visited {
+    color: none;
+}
+
+/* mouse over link */
+#a5 a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+#a5 a:active {
+    color: blue;
+}
 
 /*************Earth background Video***************/
 video {
